@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Get coordinates of the mouse pointer</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <!-- style sheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel='stylesheet' href='./css/c3.min.css' type='text/css' />
+    <link rel='stylesheet' href='./css/style.css' type='text/css' />
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.css' type='text/css' />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet' />
+    <!-- js files -->
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="./js/c3.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.min.js'></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet' />
+
+    
+    
+    <!-- Load d3.js and c3.js -->
+    
+    
+</head>
+    <body>
+        <!-- Map header -->
+    <div class="container">
+        <div class="row">
+            <div id='map' class="map"></div>
+        </div>
+    </div>
+    
+          
+    
+           
+    
+    
+
+    <div class="container-fluid pad">
+        <div class="row">
+                <div id='info'></div>
+            <div id="placesPictures" class="picture row no-gutter"></div>
+        </div>
+    </div>
+    
+    <div class="container-fluid pad">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="chart"></div>
+            </div>
+            <div class="col-md-6 secondChart text-center">
+                <h3 id="weather"></h3>
+                <div id="chartTwo"></div>
+            </div>
+        </div>
+    </div>
+    
+                
+     
+
+    <!-- <div id="chart"></div> -->
+    
+    <script src="./js/index.js"></script>
+    </body>
+</html>
